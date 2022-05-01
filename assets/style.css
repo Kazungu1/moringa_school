@@ -1,0 +1,278 @@
+* {  
+  box-sizing: border-box; }
+
+body { 
+  background: whitesmoke;  
+  margin: 0;  
+  font-family: "Nunito", sans-serif;  }
+
+.wrapper{ 
+  background:white; 
+  width:90%; 
+  margin:  auto; 
+  height: auto;
+  resize: none; 
+  overflow:hidden; }
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.image { 
+  width: 100%; 
+  height: 15em; 
+  padding: 20px; }
+
+.image-1 { 
+  width: 100%; 
+  height: 20em; 
+  padding: 20px; }
+
+.navigation{ 
+  float: left; 
+  width: 100%; 
+  padding: 20px; 
+  float: left;  
+  border-bottom: 1px solid whitesmoke; }
+a{
+  text-decoration: none;
+  color: black;
+}
+.nav-left { 
+  float: left; 
+  width: 40%; }
+
+.nav-right { 
+  float: right; 
+  width: 35%; }
+
+.nav-right a { 
+  text-align: right; 
+  margin-right: 5%; 
+  background: whitesmoke; 
+  padding: 8px;  }
+
+.nav-left b { 
+  color:  #ec4067; }
+
+.btn-nav {  
+  background:  #ec4067; 
+  padding: 8px 20px; 
+  border: none; 
+  color: white; 
+  border-radius: 3px; 
+  float: right;  
+  margin-top: -2%;}
+
+
+
+
+.stories{ 
+  float: left; 
+  width: 100%; 
+  padding: 20px; 
+  float: left;  }
+
+#stories a { 
+  font-size: small; 
+  font-weight: lighter; }
+
+.board-meeting { 
+  float: left; 
+  width: 100%; 
+  padding: 15px; }
+
+.graduation { 
+  float: left; 
+  width: 100%; 
+  padding: 15px; }
+
+.mentors{ 
+  float: left; 
+  width: 100%; 
+  padding: 15px; }
+
+#mentors a { 
+  font-size: small; 
+  font-weight: lighter; } 
+
+.mentors-a{ 
+  float: left; 
+  width: 25%; 
+  padding: 10px; }
+
+.mentors-b{ 
+  float: left; 
+  width: 100%; 
+  padding: 5px; }
+
+.mentors-c{ 
+  float: left; 
+  width: 100%; 
+  padding: 5px; }
+
+.mentors-c h5 { 
+  color:  #ec4067; }
+
+.mentors-d h4 { 
+  color: white; }
+
+
+.mentors-d { 
+  float: left; 
+  width: 100%; 
+  padding: 10px;  
+  margin-top: -25%; 
+  position: relative; }
+
+.img-mentor { 
+  width: 100%; 
+  height: 10em; }
+
+
+.about { 
+  float: left; 
+  width: 100%; 
+  padding: 15px; } 
+
+.sect-a{ 
+  float: left; 
+  width: 60%; 
+  padding: 25px; }
+
+.sect-b{ 
+  float: left; 
+  width: 40%;  
+  padding: 15px; }
+
+
+.about h4 { 
+  color:  #ec4067; 
+  font-size: large; 
+  letter-spacing: 2px; }
+
+.about a {  
+  background: white; 
+  border: 1px solid  #ec4067;   
+  color:  #ec4067; 
+  padding: 8px; 
+  text-decoration: none; }
+
+.about button { 
+  background:  #ec4067; 
+  padding: 8px 20px; 
+  border: none; 
+  color: white; 
+  border-radius: 3px;  
+  margin-right: 5%;}
+
+.album {
+  float: left;  
+  background:  #ec4067; 
+  padding: 8px; 
+  border: none; 
+  color: white;}
+
+.btn {  
+  background:  #ec4067; 
+  padding: 8px 20px; 
+  border: none; 
+  color: white; 
+  border-radius: 3px; }
+
+
+
+.projects { 
+  float: left; 
+  width: 100%;
+  padding: 15px; }
+
+.projects-a { 
+  float: left; 
+  width: 45%;
+  padding: 15px; }
+  
+.projects-b { 
+  float: left; 
+  width: 55%;
+  padding: 15px; }
+
+#projects a { 
+  font-size: small; 
+  font-weight: lighter; }
+
+.p { 
+  color:  #ec4067; 
+  font-size: x-large; }
+
+.foot { 
+  padding: 20px; 
+  float: left; 
+  width: 100%; }
+
+.foot h4 { 
+  color:  #ec4067; }
+
+#contact { 
+  color:#ec4067 ; }
+
+#footer { 
+  float: left; 
+  width: 100%; 
+  padding: 20px; 
+  text-align: center; 
+  background: #F5F5DC; }
+
+.fa-heart { 
+  color: #ec4067; }
+
+@media screen and (max-width:600px) {
+.wrapper { 
+  float: left; 
+  width: 100%; }
+
+.navigation { 
+  float: left; 
+  width: 100%;  }
+
+.nav-left { 
+  float: left; 
+  width: 100%; }
+
+.nav-right { 
+  float: left; 
+  width: 100%; 
+  margin-top: 8%;}
+
+.nav-right a { 
+  text-align: right;
+  margin-right: 5%; 
+  background: whitesmoke; 
+  padding: 8px;  }
+
+.sect-a { 
+  float: left; 
+  width: 100%; }
+
+.sect-b { 
+  float: left;
+  width: 100%; }
+
+.projects-a, .projects-b { 
+  float: left; 
+  width: 100%; }
+
+.mentors-a { 
+  float: left;
+  width: 100%; }
+.mentors-d { 
+  float: left; 
+  width: 100%; 
+  margin-top: -19%;}
+
+}
